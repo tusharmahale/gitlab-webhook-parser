@@ -5,8 +5,9 @@ import (
 	"log"
 	"net/http"
 
+	"tusharmahale/gitlab-webhook-parser/src/gitlab"
+
 	"github.com/gorilla/mux"
-	"quillbot.com/gitlab-webhook-parser/src/gitlab"
 )
 
 const (

@@ -1,4 +1,4 @@
-module quillbot.com/gitlab-webhook-parser
+module tusharmahale/gitlab-webhook-parser
 
 go 1.20
 

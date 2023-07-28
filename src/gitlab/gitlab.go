@@ -9,10 +9,11 @@ import (
 	"strconv"
 	"time"
 
+	"tusharmahale/gitlab-webhook-parser/src/slack"
+
 	webhook "github.com/go-playground/webhooks/v6/gitlab"
 	"github.com/gorilla/mux"
 	"github.com/xanzy/go-gitlab"
-	"quillbot.com/gitlab-webhook-parser/src/slack"
 )
 
 func initGilab() (cl *gitlab.Client, err error) {
