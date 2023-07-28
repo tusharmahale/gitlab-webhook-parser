@@ -10,7 +10,7 @@ GITLAB_TOKEN
 SLACK_AUTH_TOKEN
 SLACK_CHANNEL_ID
 SLEEP_DURATION
-sh
+```
 
 ## Installation
 1. Log into the Gitlab instance and navigate to the administration settings page. 
